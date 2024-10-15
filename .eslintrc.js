@@ -5,14 +5,14 @@ module.exports = {
     jest: true,
   },
   extends: [
-    'eslint:recommended',
-    'airbnb-base',
+    // 'eslint:recommended',
+    // 'airbnb-base',
   ],
   parserOptions: {
     ecmaVersion: 12,
-    sourceType: 'module',
+    sourceType: "module",
   },
   rules: {
-    'import/prefer-default-export': 0,
+    "import/prefer-default-export": 0,
   },
 };
